@@ -24,6 +24,12 @@
             case 'team.php':
                 echo "Team - HeartForHentai";
                 break;
+            case 'privancypolicy.php':
+                echo "Datenschutzerklärung - HeartForHentai";
+                break;
+            case 'imprint.php':
+                echo "Impressum - HeartForHentai";
+                break;
             default:
                 echo "HeartForHentai";
                 break;
