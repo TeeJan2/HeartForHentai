@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <?php include("inc/header.inc.php") ?>
-        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="shortcut icon" href="/images/icon.png">
         <link rel="stylesheet" href="style.css">
         <script rel="https://cdnjs.cloudflare.com/ajax/libs/3.4.1/Jquery.min.js" charset="UTF-8"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/icon.png">
     <title><?php
         $request = explode("/", $_SERVER['REQUEST_URI']);
         $request_file = end($request);
