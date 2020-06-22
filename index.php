@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="inner-width">
-                <a href="#" class="logo.png" alt=""></a>
+                <a href="images/logo.png" class="logo" alt=""></a>
                 <i class="menu-toggle-btn fas fa-bars"></i>
                 <nav class="navigation-menu">
                     <a href="index.php"><i class="fas fa-home home"></i> Home</a>
