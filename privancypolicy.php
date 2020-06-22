@@ -36,1036 +36,635 @@
     <meta charset="utf-8">
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Personal WebSite</title>
+    <?php include("inc/header.inc.php") ?>
 </head>
 <body>
-<div class="box">
-    <h1>
-        Datenschutzerklärung</h1>
-    <h5>
-        Datenschutzerklärung</h5>
-    <p>
-        Datenschutzerklärung</p>
-        Sicherheit und Schutz Ihrer personenbezogenen Daten</p>
-    <p>
-        Wir betrachten es als unsere vorrangige Aufgabe, die Vertraulichkeit der von Ihnen bereitgestellten</p>
-    <p>
-        personenbezogenen Daten zu wahren und diese vor unbefugten Zugriffen zu schützen. Deshalb</p>
-    <p>
-        wenden wir äußerste Sorgfalt und modernste Sicherheitsstandards an, um einen maximalen Schutz</p>
-    <p>
-        Ihrer personenbezogenen Daten zu gewährleisten.</p>
-    <p>
-        Als privatrechtliches Unternehmen unterliegen wir den Bestimmungen der europäischen</p>
-    <p>
-        Datenschutzgrundverordnung (DSGVO) und den Regelungen des Bundesdatenschutzgesetzes</p>
-    <p>
-        (BDSG). Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass</p>
-    <p>
-        die Vorschriften über den Datenschutz sowohl von uns, als auch von unseren externen</p>
-    <p>
-        Dienstleistern beachtet werden.</p>
-    <p>
-        Begriffsbestimmungen</p>
-    <p>
-        Der Gesetzgeber fordert, dass personenbezogene Daten auf rechtmäßige Weise, nach Treu und</p>
-    <p>
-        Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden</p>
-    <p>
-        („Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz“). Um dies zu gewährleisten,</p>
-    <p>
-        informieren wir Sie über die einzelnen gesetzlichen Begriffsbestimmungen, die auch in dieser</p>
-    <p>
-        Datenschutzerklärung verwendet werden:</p>
-
-
-    <p>
-        1. Personenbezogene Daten</p>
-    <p>
-        „Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder</p>
-    <p>
-        identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar</p>
-    <p>
-        wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu</p>
-    <p>
-        einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-</p>
-    <p>
-        Kennung oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die</p>
-    <p>
-        Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen</p>
-    <p>
-        oder sozialen Identität dieser natürlichen Person sind.</p>
-
-
-    <p>
-        2. Verarbeitung</p>
-    <p>
-        „Verarbeitung“ ist jeder, mit oder ohne Hilfe automatisierter Verfahren, ausgeführter Vorgang oder</p>
-    <p>
-        jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das</p>
-    <p>
-        Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das</p>
-    <p>
-        Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder</p>
-    <p>
-        eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das</p>
-    <p>
-        Löschen oder die Vernichtung.</p>
-
-
-    <p>
-        3. Einschränkung der Verarbeitung</p>
-    <p>
-        „Einschränkung der Verarbeitung“ ist die Markierung gespeicherter personenbezogener Daten mit</p>
-    <p>
-        dem Ziel, ihre künftige Verarbeitung einzuschränken.</p>
-
-
-    <p>
-        4. Dateisystem</p>
-    <p>
-        „Dateisystem“ ist jede strukturierte Sammlung personenbezogener Daten, die nach bestimmten</p>
-    <p>
-        Kriterien zugänglich sind, unabhängig davon, ob diese Sammlung zentral, dezentral oder nach</p>
-    <p>
-        funktionalen oder geografischen Gesichtspunkten geordnet geführt wird.</p>
-
-
-    <p>
-        5. Verantwortlicher</p>
-    <p>
-        „Verantwortlicher“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere</p>
-    <p>
-        Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von</p>
-    <p>
-        personenbezogenen Daten entscheidet; sind die Zwecke und Mittel dieser Verarbeitung durch das</p>
-    <p>
-        Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so können der Verantwortliche</p>
-    <p>
-        beziehungsweise die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem</p>
-    <p>
-        Recht der Mitgliedstaaten vorgesehen werden.</p>
-
-
-    <p>
-        6. Auftragsverarbeiter</p>
-    <p>
-        „Auftragsverarbeiter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere</p>
-    <p>
-        Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.</p>
-
-
-    <p>
-        7. Empfänger</p>
-    <p>
-        „Empfänger“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle,</p>
-    <p>
-        denen personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen</p>
-    <p>
-        Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach</p>
-    <p>
-        dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten</p>
-    <p>
-        erhalten, gelten jedoch nicht als Empfänger; die Verarbeitung dieser Daten durch die genannten</p>
-    <p>
-        Behörden erfolgt im Einklang mit den geltenden Datenschutzvorschriften gemäß den Zwecken der</p>
-    <p>
-        Verarbeitung.</p>
-
-
-    <p>
-        8. Dritter</p>
-    <p>
-        „Dritter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, außer</p>
-    <p>
-        der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter</p>
-    <p>
-        der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind,</p>
-    <p>
-        die personenbezogenen Daten zu verarbeiten.</p>
-
-
-    <p>
-        9. Einwilligung</p>
-    <p>
-        Eine „Einwilligung“ der betroffenen Person ist jede freiwillig für den bestimmten Fall, in</p>
-    <p>
-        informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung</p>
-    <p>
-        oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu</p>
-    <p>
-        verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten</p>
-    <p>
-        einverstanden ist.</p>
-
-
-    <p>
-        10. Profiling</p>
-    <p>
-        „Profiling“ ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin</p>
-    <p>
-        besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche</p>
-    <p>
-        Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte</p>
-    <p>
-        bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen,</p>
-    <p>
-        Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu</p>
-    <p>
-        analysieren oder vorherzusagen.</p>
-
-
-    <p>
-        11. Pseudonymisierung</p>
-    <p>
-        „Pseudonymisierung“ ist die Verarbeitung personenbezogener Daten in einer Weise, dass die</p>
-    <p>
-        personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer</p>
-    <p>
-        spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen</p>
-    <p>
-        Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen</p>
-    <p>
-        unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder</p>
-    <p>
-        identifizierbaren natürlichen Person zugewiesen werden können.</p>
-
-
-    <p>
-        Rechtmäßigkeit der Verarbeitung</p>
-    <p>
-        Die Verarbeitung personenbezogener Daten ist nur rechtmäßig, wenn für die Verarbeitung eine</p>
-    <p>
-        Rechtsgrundlage besteht. Rechtsgrundlage für die Verarbeitung können gemäß Artikel 6 Abs. 1 lit. a</p>
-    <p>
-        – f DSGVO insbesondere sein:</p>
-    <p>
-        a. Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden</p>
-    <p>
-        personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;</p>
-    <p>
-        b. die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person</p>
-    <p>
-        ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der</p>
-    <p>
-        betroffenen Person erfolgen;</p>
-    <p>
-        c. die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der</p>
-    <p>
-        Verantwortliche unterliegt;</p>
-    <p>
-        d. die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer</p>
-    <p>
-        anderen natürlichen Person zu schützen;</p>
-    <p>
-        e. die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen</p>
-    <p>
-        Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen</p>
-    <p>
-        wurde;</p>
-    <p>
-        f. die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines</p>
-    <p>
-        Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der</p>
-    <p>
-        betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere</p>
-    <p>
-        dann, wenn es sich bei der betroffenen Person um ein Kind handelt.</p>
-
-
-    <p>
-        Information über die Erhebung personenbezogener Daten</p>
-    <p>
-        (1) Im Folgenden informieren wir über die Erhebung personenbezogener Daten bei Nutzung unserer</p>
-    <p>
-        Website. Personenbezogene Daten sind z. B. Name, Adresse, E-Mail-Adressen, Geschlecht.</p>
-    <p>
-        (2) Bei einer Kontaktaufnahme mit uns per E-Mail oder über unser Supportportal werden die von</p>
-    <p>
-        Ihnen mitgeteilten Daten (Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) von uns</p>
-    <p>
-        gespeichert, um Ihre Fragen zu beantworten. Die in diesem Zusammenhang anfallenden Daten</p>
-    <p>
-        löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder die Verarbeitung wird</p>
-    <p>
-        eingeschränkt, falls gesetzliche Aufbewahrungspflichten bestehen.</p>
-
-
-    <p>
-        Erhebung personenbezogener Daten bei Besuch unserer Website</p>
-    <p>
-        Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns</p>
-    <p>
-        anderweitig Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr</p>
-    <p>
-        Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir</p>
-    <p>
-        die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen</p>
-    <p>
-        und die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f</p>
-    <p>
-        DSGVO):</p>
-    <p>
-        • IP-Adresse</p>
-    <p>
-        • Datum und Uhrzeit der Anfrage</p>
-    <p>
-        • Zeitzonendifferenz zur Greenwich Mean Time (GMT)</p>
-    <p>
-        • Inhalt der Anforderung (konkrete Seite)</p>
-    <p>
-        • Zugriffsstatus/HTTP-Statuscode</p>
-    <p>
-        • jeweils übertragene Datenmenge</p>
-    <p>
-        • Website, von der die Anforderung kommt</p>
-    <p>
-        • Browser</p>
-    <p>
-        • Betriebssystem und dessen Oberfläche</p>
-    <p>
-        • Sprache und Version der Browsersoftware</p>
-
-
-    <p>
-        Einsatz von Cookies</p>
-    <p>
-        (1) Zusätzlich zu den zuvor genannten Daten werden bei der Nutzung unserer Website Cookies auf</p>
-    <p>
-        Ihrem Rechner gespeichert. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrer</p>
-    <p>
-        Festplatte dem von Ihnen verwendeten Browser zugeordnet gespeichert werden und durch welche</p>
-    <p>
-        der Stelle, die den Cookie setzt, bestimmte Informationen zufließen. Cookies können keine</p>
-    <p>
-        Programme ausführen oder Viren auf Ihren Computer übertragen. Sie dienen dazu, das</p>
-    <p>
-        Internetangebot insgesamt nutzerfreundlicher und effektiver zu machen.</p>
-    <p>
-        (2) Diese Website nutzt folgende Arten von Cookies, deren Umfang und Funktionsweise im</p>
-    <p>
-        Folgenden erläutert werden:</p>
-    <p>
-        • Transiente Cookies (dazu a.)</p>
-    <p>
-        • Persistente Cookies (dazu b.).</p>
-    <p>
-        a. Transiente Cookies werden automatisiert gelöscht, wenn Sie den Browser schließen. Dazu zählen</p>
-    <p>
-        insbesondere die Session-Cookies. Diese speichern eine sogenannte Session-ID, mit welcher sich</p>
-    <p>
-        verschiedene Anfragen Ihres Browsers der gemeinsamen Sitzung zuordnen lassen. Dadurch kann</p>
-    <p>
-        Ihr Rechner wiedererkannt werden, wenn Sie auf unsere Website zurückkehren. Die Session-</p>
-    <p>
-        Cookies werden gelöscht, wenn Sie sich ausloggen oder den Browser schließen.</p>
-    <p>
-        b. Persistente Cookies werden automatisiert nach einer vorgegebenen Dauer gelöscht, die sich je</p>
-    <p>
-        nach Cookie unterscheiden kann. Sie können die Cookies in den Sicherheitseinstellungen Ihres</p>
-    <p>
-        Browsers jederzeit löschen.</p>
-    <p>
-        c. Sie können Ihre Browser-Einstellung entsprechend Ihren Wünschen konfigurieren und z. B. die</p>
-    <p>
-        Annahme von Third-Party-Cookies oder allen Cookies ablehnen. Sog. „Third Party Cookies“ sind</p>
-    <p>
-        Cookies, die durch einen Dritten gesetzt wurden, folglich nicht durch die eigentliche Website auf</p>
-    <p>
-        der man sich gerade befindet. Wir weisen Sie darauf hin, dass Sie durch die Deaktivierung von</p>
-    <p>
-        Cookies eventuell nicht alle Funktionen dieser Website nutzen können.</p>
-    <p>
-        d. Wir setzen Cookies ein, um Sie für Folgebesuche identifizieren zu können, falls Sie über einen</p>
-    <p>
-        Account bei uns verfügen. Andernfalls müssten Sie sich für jeden Besuch erneut einloggen.</p>
-
-
-    <p>
-        Weitere Funktionen und Angebote unserer Website</p>
-    <p>
-        (1) Neben der rein informatorischen Nutzung unserer Website bieten wir verschiedene Leistungen</p>
-    <p>
-        an, die Sie bei Interesse nutzen können. Dazu müssen Sie in der Regel weitere personenbezogene</p>
-    <p>
-        Daten angeben, die wir zur Erbringung der jeweiligen Leistung nutzen und für die die zuvor</p>
-    <p>
-        genannten Grundsätze zur Datenverarbeitung gelten.</p>
-    <p>
-        (2) Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten externer Dienstleister. Diese wurden</p>
-    <p>
-        von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weisungen gebunden und werden</p>
-    <p>
-        regelmäßig kontrolliert.</p>
-    <p>
-        (3) Weiterhin können wir Ihre personenbezogenen Daten an Dritte weitergeben, wenn</p>
-    <p>
-        Aktionsteilnahmen, Gewinnspiele, Vertragsabschlüsse oder ähnliche Leistungen von uns</p>
-    <p>
-        gemeinsam mit Partnern angeboten werden. Nähere Informationen hierzu erhalten Sie bei Angabe</p>
-    <p>
-        Ihrer personenbezogenen Daten oder untenstehend in der Beschreibung des Angebotes.</p>
-    <p>
-        (4) Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen</p>
-    <p>
-        Wirtschaftsraumen (EWR) haben, informieren wir Sie über die Folgen dieses Umstands in der</p>
-    <p>
-        Beschreibung des Angebotes.</p>
-
-
-    <p>
-        Registrierung auf unserer Website</p>
-    <p>
-        (1) Wenn Sie bei uns Kunde werden wollen, ist es für den Vertragsabschluss erforderlich, dass Sie</p>
-    <p>
-        Ihre persönlichen Daten angeben, die wir für die Abwicklung des Vertrages benötigen. Für die</p>
-    <p>
-        Abwicklung der Verträge notwendige Pflichtangaben sind gesondert markiert, weitere Angaben sind</p>
-    <p>
-        freiwillig. Die von Ihnen angegebenen Daten verarbeiten wir zur Abwicklung des Vertrages. Dazu</p>
-    <p>
-        können wir Ihre Zahlungsdaten an unsere Bank weitergeben. Rechtsgrundlage hierfür ist Art. 6 Abs.</p>
-    <p>
-        1 S. 1 lit. b DSGVO.</p>
-    <p>
-        (2) Wir sind aufgrund handels- und steuerrechtlicher Vorgaben verpflichtet, Ihre Adress-, Zahlungsund</p>
-    <p>
-        Bestelldaten für die Dauer von zehn Jahren zu speichern. Allerdings nehmen wir nach zwei</p>
-    <p>
-        Jahren eine Einschränkung der Verarbeitung vor, d. h. Ihre Daten werden nur zur Einhaltung der</p>
-    <p>
-        gesetzlichen Verpflichtungen eingesetzt.</p>
-    <p>
-        (3) Zur Verhinderung unberechtigter Zugriffe Dritter auf Ihre persönlichen Daten, insbesondere</p>
-    <p>
-        Finanzdaten, wird der Bestellvorgang per TLS-Technik verschlüsselt.</p>
-
-
-    <p>
-        Datenschutzbestimmungen bei der Verwendung von externen Zahlungsdienstleistern</p>
-    <p>
-        (1) Wir bieten für die Nutzung des Webshops mehrere Zahlungsmethoden an und bedienen uns</p>
-    <p>
-        dabei unterschiedlicher Zahlungsdienstleiter. Je nachdem für welche Zahlungsart Sie sich</p>
-    <p>
-        entscheiden, werden unterschiedliche Daten an den jeweiligen Zahlungsdienstleister übermittelt.</p>
-    <p>
-        Rechtsgrundlage für die Übermittlung der Daten ist Artikel 6 Abs. 1 lit. a DSGVO (Einwilligung)</p>
-    <p>
-        und Artikel 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Erfüllung eines Vertrages).</p>
-    <p>
-        (2) Für die Zahlungsarten Paysafecard, Skrill, Bitcoin, Sofortüberweisung und Giropay bedienen</p>
-    <p>
-        wir uns folgenden Zahlungsdienstleister:</p>
-    <p>
-        Paysafe – London (Group HQ)</p>
-    <p>
-        27-25 Canada Square</p>
-    <p>
-        27th Floor</p>
-    <p>
-        London</p>
-    <p>
-        E14 5LQ</p>
-    <p>
-        United Kingdom</p>
-    <p>
-        Tel: +44 (0) 207 608 8460</p>
-    <p>
-        Die Paysafe Group erhebt dabei folgende Daten:</p>
-    <p>
-        – IP-Adresse</p>
-    <p>
-        Ausführliche Informationen zu den Datenschutzbestimmungen finden Sie unter:</p>
-    <p>
-        https://www.skrill.com/de/fusszeile/datenschutzrichtlinie/</p>
-    <p>
-        Die Rechtsgrundlage für die Übermittlung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.</p>
-    <p>
-        a. PayPal</p>
-    <p>
-        Entscheiden Sie sich für die Zahlungsart PayPal, so werden zusätzlich Ihre personenbezogenen</p>
-    <p>
-        Daten an PayPal übermittelt. Voraussetzung für die Nutzung von PayPal ist die Eröffnung eines</p>
-    <p>
-        PayPal-Kontos. Mit der Nutzung bzw. Eröffnung eines PayPal Kontos müssen unter anderem</p>
-    <p>
-        Name, Adresse, Telefonnummer und E-Mail-Adresse an PayPal übermittelt werden.</p>
-    <p>
-        Rechtsgrundlage für die Übermittlung der Daten ist Artikel 6 Abs. 1 lit. a DSGVO (Einwilligung)</p>
-    <p>
-        und Artikel 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Erfüllung eines Vertrages).</p>
-    <p>
-        Betreiber des Zahlungsdienstes PayPal ist die:</p>
-    <p>
-        PayPal (Europe) S.à r.l. et Cie, S.C.A.</p>
-    <p>
-        22-24 Boulevard Royal</p>
-    <p>
-        L-2449 Luxembourg</p>
-    <p>
-        E-Mail: impressum@paypal.com</p>
-    <p>
-        Mit der Zahlungsoption PayPal willigen Sie in die Übermittlung der personenbezogenen Daten wie</p>
-    <p>
-        Name, Adresse, Telefonnummer und E-Mail-Adresse, an PayPal ein. Welche weiteren Daten von</p>
-    <p>
-        PayPal erhoben werden, ergibt sich aus der jeweiligen Datenschutzerklärung von PayPal. Diese</p>
-    <p>
-        findet sich unter: https://www.paypal.com/de/webapps/mpp/ua/privacy-full</p>
-
-
-    <p>
-        Newsletter</p>
-    <p>
-        (1) Mit Ihrer Einwilligung können Sie unseren Newsletter abonnieren, mit dem wir Sie über unsere</p>
-    <p>
-        aktuellen interessanten Angebote informieren. Die beworbenen Waren und Dienstleistungen sind in</p>
-    <p>
-        der Einwilligungserklärung benannt.</p>
-    <p>
-        (2) Für die Anmeldung zu unserem Newsletter verwenden wir das sog. Double-Opt-in-Verfahren.</p>
-    <p>
-        Das heißt, dass wir Ihnen nach Ihrer Anmeldung eine E-Mail an die angegebene E-Mail-Adresse</p>
-    <p>
-        senden, in welcher wir Sie um Bestätigung bitten, dass Sie den Versand des Newsletters wünschen.</p>
-    <p>
-        Wenn Sie Ihre Anmeldung nicht innerhalb von 24 Stunden bestätigen, werden Ihre Informationen</p>
-    <p>
-        gesperrt und nach einem Monat automatisch gelöscht. Darüber hinaus speichern wir jeweils Ihre</p>
-    <p>
-        eingesetzten IP-Adressen und Zeitpunkte der Anmeldung und Bestätigung. Zweck des Verfahrens</p>
-    <p>
-        ist, Ihre Anmeldung nachweisen und ggf. einen möglichen Missbrauch Ihrer persönlichen Daten</p>
-    <p>
-        aufklären zu können.</p>
-    <p>
-        (3) Pflichtangabe für die Übersendung des Newsletters ist allein Ihre E-Mail-Adresse. Die Angabe</p>
-    <p>
-        weiterer, gesondert markierter Daten ist freiwillig und wird verwendet, um Sie persönlich</p>
-    <p>
-        ansprechen zu können. Nach Ihrer Bestätigung speichern wir Ihre E-Mail-Adresse zum Zweck der</p>
-    <p>
-        Zusendung des Newsletters. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. a DSGVO.</p>
-    <p>
-        (4) Ihre Einwilligung in die Übersendung des Newsletters können Sie jederzeit widerrufen und den</p>
-    <p>
-        Newsletter abbestellen. Den Widerruf können Sie durch Klick auf den in jeder Newsletter-E-Mail</p>
-    <p>
-        bereitgestellten Link, über dieses Formular der Website, per E-Mail an admin@HentaiForLife.com.net</p>
-    <p>
-        oder durch eine Nachricht an die im Impressum angegebenen Kontaktdaten erklären.</p>
-
-    <p>
-        Kontaktformular</p>
-    <p>
-        (1) Beschreibung und Umfang der Datenverarbeitung</p>
-    <p>
-        Auf unserer Internetseite ist ein Kontaktformular vorhanden, welches für die elektronische Kontaktaufnahme genutzt werden kann. Nimmt ein Nutzer diese Möglichkeit wahr, so werden die in der Eingabemaske eingegeben Daten an uns übermittelt und gespeichert. Diese Daten sind:</p>
-    <p>
-        Name, E-Mailadresse, Betreff, Deine Nachricht</p>
-    <p>
-        Im Zeitpunkt der Absendung der Nachricht werden zudem folgende Daten gespeichert:</p>
-    <p>
-        (1) E-Mailadresse</p>
-    <p>
-        (2) Name</p>
-    <p>
-        (3) Datum und Uhrzeit</p>
-    <p>
-        (4) Inhalt</p>
-    <p>
-        Für die Verarbeitung der Daten wird im Rahmen des Absendevorgangs Ihre Einwilligung eingeholt und auf diese Datenschutzerklärung verwiesen.</p>
-    <p>
-        Alternativ ist eine Kontaktaufnahme über die bereitgestellte E-Mail-Adresse möglich. In diesem Fall werden die mit der E-Mail übermittelten personenbezogenen Daten des Nutzers gespeichert.</p>
-    <p>
-        Es erfolgt in diesem Zusammenhang keine Weitergabe der Daten an Dritte. Die Daten werden ausschließlich für die Verarbeitung der Konversation verwendet.</p>
-
-
-
-    <p>
-        Kinder
-    <p>
-        Unser Angebot richtet sich grundsätzlich an Personen, die das 16. Lebensjahr vollendet haben</p>.
-    <p>
-        Personen, unter 18 Jahren, sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine</p>
-    <p>
-        personenbezogenen Daten an uns übermitteln.</p>
-
-    <p>
-        Rechte der betroffenen Person</p>
-
-
-
-    <p>
-        (1) Widerruf der Einwilligung</p>
-    <p>
-        Sofern die Verarbeitung der personenbezogenen Daten auf einer erteilten Einwilligung beruht,</p>
-    <p>
-        haben Sie jederzeit das Recht, die Einwilligung zu widerrufen. Durch den Widerruf der</p>
-    <p>
-        Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten</p>
-    <p>
-        Verarbeitung nicht berührt.</p>
-    <p>
-        Für die Ausübung des Widerrufsrechts können Sie sich jederzeit an uns wenden.</p>
-
-
-    <p>
-        (2) Recht auf Bestätigung</p>
-    <p>
-        Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir sie</p>
-    <p>
-        betreffende personenbezogene Daten verarbeiten. Die Bestätigung können Sie jederzeit unter den</p>
-    <p>
-        oben genannten Kontaktdaten verlangen.</p>
-
-
-    <p>
-        (3) Auskunftsrecht</p>
-    <p>
-        Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft über diese</p>
-    <p>
-        personenbezogenen Daten und über folgenden Informationen verlangen:</p>
-    <p>
-        a. die Verarbeitungszwecke;</p>
-    <p>
-        b. den Kategorien personenbezogener Daten, die verarbeitet werden;</p>
-    <p>
-        c. die Empfänger oder Kategorien von Empfängern, gegenüber denen die personenbezogenen Daten</p>
-    <p>
-        offengelegt worden sind oder noch offengelegt werden, insbesondere bei Empfängern in</p>
-    <p>
-        Drittländern oder bei internationalen Organisationen;</p>
-    <p>
-        d. falls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden, oder,</p>
-    <p>
-        falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer;</p>
-    <p>
-        e. das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden</p>
-    <p>
-        personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen</p>
-    <p>
-        oder eines Widerspruchsrechts gegen diese Verarbeitung;</p>
-    <p>
-        f. das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;</p>
-    <p>
-        g. wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden, alle</p>
-    <p>
-        verfügbaren Informationen über die Herkunft der Daten;</p>
-    <p>
-        h. das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Artikel</p>
-    <p>
-        22 Absätze 1 und 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über</p>
-    <p>
-        die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen</p>
-    <p>
-        Verarbeitung für die betroffene Person.</p>
-    <p>
-        Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation</p>
-    <p>
-        übermittelt, so haben Sie das Recht, über die geeigneten Garantien gemäß Artikel 46 DSGVO im</p>
-    <p>
-        Zusammenhang mit der Übermittlung unterrichtet zu werden. Wir stellen eine Kopie der</p>
-    <p>
-        personenbezogenen Daten, die Gegenstand der Verarbeitung sind, zur Verfügung. Für alle weiteren</p>
-    <p>
-        Kopien, die Sie Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der</p>
-    <p>
-        Verwaltungskosten verlangen. Stellen Sie den Antrag elektronisch, so sind die Informationen in</p>
-    <p>
-        einem gängigen elektronischen Format zur Verfügung zu stellen, sofern er nichts anderes angibt.</p>
-    <p>
-        Das Recht auf Erhalt einer Kopie gemäß Absatz 3 darf die Rechte und Freiheiten anderer Personen</p>
-    <p>
-        nicht beeinträchtigen.</p>
-
-
-    <p>
-        (4) Recht auf Berichtigung</p>
-    <p>
-        Sie haben das Recht, von uns unverzüglich die Berichtigung Sie betreffender unrichtiger</p>
-    <p>
-        personenbezogener Daten zu verlangen. Unter Berücksichtigung der Zwecke der Verarbeitung</p>
-    <p>
-        haben Sie das Recht, die Vervollständigung unvollständiger personenbezogener Daten – auch</p>
-    <p>
-        mittels einer ergänzenden Erklärung – zu verlangen.</p>
-
-
-    <p>
-        (5) Recht auf Löschung („Recht auf vergessen werden“)</p>
-    <p>
-        Sie haben das Recht, von dem Verantwortlichen zu verlangen, dass Sie betreffende</p>
-    <p>
-        personenbezogene Daten unverzüglich gelöscht werden, und wir sind verpflichtet,</p>
-    <p>
-        personenbezogene Daten unverzüglich zu löschen, sofern einer der folgenden Gründe zutrifft:</p>
-    <p>
-        a. Die personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise</p>
-    <p>
-        verarbeitet wurden, nicht mehr notwendig.</p>
-    <p>
-        b. Die betroffene Person widerruft ihre Einwilligung, auf die sich die Verarbeitung gemäß Artikel 6</p>
-    <p>
-        Absatz 1 Buchstabe a oder Artikel 9 Absatz 2 Buchstabe a DSGVO stützte, und es fehlt an einer</p>
-    <p>
-        anderweitigen Rechtsgrundlage für die Verarbeitung.</p>
-    <p>
-        c. Die betroffene Person legt gemäß Artikel 21 Absatz 1 DSGVO Widerspruch gegen die</p>
-    <p>
-        Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor,</p>
-    <p>
-        oder die betroffene Person legt gemäß Artikel 21 Absatz 2 DSGVO Widerspruch gegen die</p>
-    <p>
-        Verarbeitung ein.</p>
-    <p>
-        d. Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.</p>
-    <p>
-        e. Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung</p>
-    <p>
-        nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche</p>
-    <p>
-        unterliegt.</p>
-    <p>
-        f. Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der</p>
-    <p>
-        Informationsgesellschaft gemäß Artikel 8 Absatz 1 DSGVO erhoben.</p>
-    <p>
-        Hat der Verantwortliche die personenbezogenen Daten öffentlich gemacht und ist er gemäß Absatz</p>
-    <p>
-        1 zu deren Löschung verpflichtet, so trifft er unter Berücksichtigung der verfügbaren Technologie</p>
-    <p>
-        und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um für die</p>
-    <p>
-        Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu</p>
-    <p>
-        informieren, dass eine betroffene Person von ihnen die Löschung aller Links zu diesen</p>
-    <p>
-        personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten</p>
-    <p>
-        verlangt hat.
-    <p>
-        Das Recht auf Löschung („Recht auf vergessen werden“) besteht nicht, soweit die Verarbeitung</p>
-    <p>
-        erforderlich ist:</p>
-    <p>
-        – zur Ausübung des Rechts auf freie Meinungsäußerung und Information;</p>
-    <p>
-        – zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union</p>
-    <p>
-        oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung</p>
-    <p>
-        einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die</p>
-    <p>
-        dem Verantwortlichen übertragen wurde;</p>
-    <p>
-        – aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Artikel 9</p>
-    <p>
-        Absatz 2 Buchstaben h und i sowie Artikel 9 Absatz 3 DSGVO;</p>
-    <p>
-        – für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische</p>
-    <p>
-        Forschungszwecke oder für statistische Zwecke gemäß Artikel 89 Absatz 1 DSGVO, soweit das in</p>
-    <p>
-        Absatz 1 genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung</p>
-    <p>
-        unmöglich macht oder ernsthaft beeinträchtigt, oder</p>
-    <p>
-        – zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
-
-
-    <p>
-        (6) Recht auf Einschränkung der Verarbeitung</p>
-    <p>
-        Sie haben das Recht, von uns die Einschränkung der Verarbeitung ihrer personenbezogenen Daten</p>
-    <p>
-        zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:</p>
-    <p>
-        a. die Richtigkeit der personenbezogenen Daten von der betroffenen Person bestritten wird, und</p>
-    <p>
-        zwar für eine Dauer, die es dem Verantwortlichen ermöglicht, die Richtigkeit der</p>
-    <p>
-        personenbezogenen Daten zu überprüfen,</p>
-    <p>
-        b. die Verarbeitung unrechtmäßig ist und die betroffene Person die Löschung der</p>
-    <p>
-        personenbezogenen Daten ablehnt und stattdessen die Einschränkung der Nutzung der</p>
-    <p>
-        personenbezogenen Daten verlangt;</p>
-    <p>
-        c. der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger</p>
-    <p>
-        benötigt, die betroffene Person sie jedoch zur Geltendmachung, Ausübung oder Verteidigung von</p>
-    <p>
-        Rechtsansprüchen benötigt, oder</p>
-    <p>
-        d. die betroffene Person Widerspruch gegen die Verarbeitung gemäß Artikel 21 Absatz 1 DSGVO</p>
-    <p>
-        eingelegt hat, solange noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen</p>
-    <p>
-        gegenüber denen der betroffenen Person überwiegen.
-    <p>
-        Wurde die Verarbeitung gemäß den oben genannten Voraussetzungen eingeschränkt, so werden</p>
-    <p>
-        diese personenbezogenen Daten – von ihrer Speicherung abgesehen – nur mit Einwilligung der</p>
-    <p>
-        betroffenen Person oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen</p>
-    <p>
-        oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen</p>
-    <p>
-        eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet.</p>
-    <p>
-        Um das Recht auf Einschränkung der Verarbeitung geltend zu machen, kann sich die betroffene</p>
-    <p>
-        Person jederzeit an uns unter den oben angegebenen Kontaktdaten wenden.</p>
-
-
-    <p>
-        (7) Recht auf Datenübertragbarkeit</p>
-    <p>
-        Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt</p>
-    <p>
-        haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten, und Sie haben</p>
-    <p>
-        das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den</p>
-    <p>
-        Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern:</p>
-    <p>
-        a. die Verarbeitung auf einer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a oder Artikel 9</p>
-    <p>
-        Absatz 2 Buchstabe a oder auf einem Vertrag gemäß Artikel 6 Absatz 1 Buchstabe b DSGVO beruht</p>
-    <p>
-        und
-    <p>
-        b. die Verarbeitung mithilfe automatisierter Verfahren erfolgt.</p>
-    <p>
-        Bei der Ausübung des Rechts auf Datenübertragbarkeit gemäß Absatz 1 haben Sie das Recht, zu</p>
-    <p>
-        erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen zu einem anderen</p>
-    <p>
-        Verantwortlichen übermittelt werden, soweit dies technisch machbar ist. Die Ausübung des Rechts</p>
-    <p>
-        auf Datenübertragbarkeit lässt das Recht auf Löschung („Recht auf Vergessen werden“) unberührt.</p>
-    <p>
-        Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer Aufgabe erforderlich</p>
-    <p>
-        ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem</p>
-    <p>
-        Verantwortlichen übertragen wurde.</p>
-
-
-    <p>
-        (8) Widerspruchsrecht</p>
-    <p>
-        Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen</p>
-    <p>
-        die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Artikel 6 Absatz 1</p>
-    <p>
-        Buchstaben e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese</p>
-    <p>
-        Bestimmungen gestütztes Profiling. Der Verantwortliche verarbeitet die personenbezogenen Daten</p>
-    <p>
-        nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen,</p>
-    <p>
-        die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung</p>
-    <p>
-        dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
-    <p>
-        Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben SIe das</p>
-    <p>
-        Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten</p>
-    <p>
-        zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher</p>
-    <p>
-        Direktwerbung in Verbindung steht. Widersprechen Sie der Verarbeitung für Zwecke der</p>
-    <p>
-        Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.</p>
-    <p>
-        Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie</p>
-    <p>
-        ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren</p>
-    <p>
-        ausüben, bei denen technische Spezifikationen verwendet werden.</p>
-    <p>
-        Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie</p>
-    <p>
-        betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder</p>
-    <p>
-        historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt,</p>
-    <p>
-        Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen</p>
-    <p>
-        Interesse liegenden Aufgabe erforderlich.</p>
-    <p>
-        Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen</p>
-    <p>
-        Verantwortlichen wenden.</p>
-
-
-    <p>
-        (9) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</p>
-    <p>
-        Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung –</p>
-    <p>
-        einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber</p>
-    <p>
-        rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt. Dies gilt nicht,</p>
-    <p>
-        wenn die Entscheidung:</p>
-    <p>
-        a. für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem</p>
-    <p>
-        Verantwortlichen erforderlich ist,</p>
-    <p>
-        b. aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche</p>
-    <p>
-        unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung der</p>
-    <p>
-        Rechte und Freiheiten sowie der berechtigten Interessen der betroffenen Person enthalten oder</p>
-    <p>
-        c. mit ausdrücklicher Einwilligung der betroffenen Person erfolgt.</p>
-    <p>
-        Der Verantwortliche trifft angemessene Maßnahmen, um die Rechte und Freiheiten sowie die</p>
-    <p>
-        berechtigten Interessen der betroffenen Person zu wahren, wozu mindestens das Recht auf</p>
-    <p>
-        Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen</p>
-    <p>
-        Standpunkts und auf Anfechtung der Entscheidung gehört.</p>
-    <p>
-        Dieses Recht kann die betroffene Person jederzeit ausüben, indem sie sich an den jeweiligen</p>
-    <p>
-        Verantwortlichen wendet.</p>
-
-
-    <p>
-        (10) Recht auf Beschwerde bei einer Aufsichtsbehörde</p>
-    <p>
-        Sie haben zudem, unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen</p>
-    <p>
-        Rechtsbehelfs, das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem</p>
-    <p>
-        Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes,</p>
-    <p>
-        wenn die betroffene Person der Ansicht ist, dass die Verarbeitung der sie betreffenden</p>
-    <p>
-        personenbezogenen Daten gegen diese Verordnung verstößt.</p>
-
-
-    <p>
-        (11) Recht auf wirksamen gerichtlichen Rechtsbehelf</p>
-    <p>
-        Sie haben unbeschadet eines verfügbaren verwaltungsrechtlichen oder außergerichtlichen</p>
-    <p>
-        Rechtsbehelfs einschließlich des Rechts auf Beschwerde bei einer Aufsichtsbehörde gemäß Artikel</p>
-    <p>
-        77 DSGVO das Recht auf einen wirksamen gerichtlichen Rechtsbehelf, wenn Sie der Ansicht sind,</p>
-    <p>
-        dass Ihre, aufgrund dieser Verordnung zustehenden Rechte, infolge einer nicht im Einklang mit</p>
-    <p>
-        dieser Verordnung stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.</p>
-
-
-    <p>
-        Einsatz von Google Analytics</p>
-    <p>
-        (1) Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“).</p>
-    <p>
-        Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert</p>
-    <p>
-        werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den</p>
-    <p>
-        Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen</p>
-    <p>
-        Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IPAnonymisierung</p>
-    <p>
-        auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von</p>
-    <p>
-        Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den</p>
-    <p>
-        Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an</p>
-    <p>
-        einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser</p>
-    <p>
-        Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um</p>
-    <p>
-        Reports über die Website-Aktivitäten zusammenzustellen und um weitere mit der Website-Nutzung</p>
-    <p>
-        und der Internetnutzung verbundene Dienstleistungen gegenüber dem Website-Betreiber zu</p>
-    <p>
-        erbringen.</p>
-    <p>
-        (2) Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht</p>
-    <p>
-        mit anderen Daten von Google zusammengeführt.</p>
-    <p>
-        (3) Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-</p>
-    <p>
-        Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht</p>
-    <p>
-        sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber</p>
-    <p>
-        hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen</p>
-    <p>
-        Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google</p>
-    <p>
-        verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plug-in herunterladen und</p>
-    <p>
-        installieren: http://tools.google.com/dlpage/gaoptout?hl=de.</p>
-    <p>
-        (4) Diese Website verwendet Google Analytics mit der Erweiterung „_anonymizeIp()“. Dadurch</p>
-    <p>
-        werden IP-Adressen gekürzt weiterverarbeitet, eine Personenbeziehbarkeit kann damit</p>
-    <p>
-        ausgeschlossen werden. Soweit den über Sie erhobenen Daten ein Personenbezug zukommt, wird</p>
-    <p>
-        dieser also sofort ausgeschlossen und die personenbezogenen Daten damit umgehend gelöscht.</p>
-    <p>
-        (5) Wir nutzen Google Analytics, um die Nutzung unserer Website analysieren und regelmäßig</p>
-    <p>
-        verbessern zu können. Über die gewonnenen Statistiken können wir unser Angebot verbessern und</p>
-    <p>
-        für Sie als Nutzer interessanter ausgestalten. Für die Ausnahmefälle, in denen personenbezogene</p>
-    <p>
-        Daten in die USA übertragen werden, hat sich Google dem EU-US Privacy Shield unterworfen,</p>
-    <p>
-        https://www.privacyshield.gov/EU-US-Framework. Rechtsgrundlage für die Nutzung von Google</p>
-    <p>
-        Analytics ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.</p>
-    <p>
-        (6) Informationen des Drittanbieters: Google Dublin, Google Ireland Ltd., Gordon House, Barrow</p>
-    <p>
-        Street, Dublin 4, Ireland, Fax: +353 (1) 436</p>
-    <p>
-        1001. Nutzerbedingungen:</p>
-    <p>
-        http://www.google.com/analytics/terms/de.html, Übersicht zum Datenschutz:</p>
-    <p>
-        http://www.google.com/intl/de/analytics/learn/privacy.html, sowie die Datenschutzerklärung:</p>
-    <p>
-        http://www.google.de/intl/de/policies/privacy.</p>
-
-
-    <p>
-        Bestehen einer automatisierten Entscheidungsfindung</p>
-    <p>
-        Wir verzichten auf eine automatische Entscheidungsfindung oder ein Profiling.</p>
-
-
-
-
-
-
-    <p>
-        Aktualität und Änderung dieser Datenschutzerklärung</p>
-    <p>
-        Diese Datenschutzerklärung ist aktuell gültig und hat den Stand vom 24.05.2018.</p>
-    <p>
-        Quelle: www.e-recht24.de </p>
-    <ul>
-
-    </ul>
+
+<div class="legal">
+    <div class="imprint">
+        <h1>Datenschutzerklärung</h1>
+        <br>
+
+        <div class="section_text">
+            <h2 class="privacyTitle">Introduction</h2>
+            
+        <p>Please read this privacy
+                policy carefully, as your access to and use of our Website signifies that you
+                have read, understand and agree to all terms within this privacy policy. If you
+                do not agree with any part of this privacy policy or our terms, please do not
+                access or continue to use our Website or otherwise submit your personal data.
+                We respect your privacy and are committed to protecting your personal data</p>
+
+            <p>If you have any questions
+                about our privacy practices, please see “<i>Contact Information</i>” below for
+                information on how to contact us.</p>
+            <p>We collect, process and retain
+                personal data to the extent it is necessary to provide users with our service.
+                This privacy policy applies to information we collect:</p>
+
+
+
+            <ul>
+                <li class="alpha">on this Website,</li>
+                <li>in e-mail, text and other communications between you and this Website,</li>
+                <li>through mobile applications you download from this Website, which provide dedicated non-browser-based interaction between you and this Website, or</li>
+                <li class="omega">when you interact with our advertising and applications on third-party websites and services, if those applications or advertising include links to this privacy policy.</li>
+            </ul>
+
+            <p>It does not apply to information collected by:</p>
+
+            <ul>
+                <li class="alpha">us offline or
+                    through any other means, including on any other website operated by us or
+                    any third party (including our affiliates and subsidiaries); or</li>
+                <li class="omega">any third
+                    party (including our affiliates and subsidiaries), including through any
+                    application or content (including advertising)&nbsp;that may link to or be
+                    accessible from or on the Website. Clicking on those links or enabling
+                    those connections may allow third parties to collect or share data about
+                    you. We do not control these third-party websites and are not responsible
+                    for their privacy statements.</li>
+            </ul>
+
+            <h2 class="privacyTitle">The Data We Collect About You</h2>
+
+            <p>Personal data, or personal
+            information, means any information about an individual from which that person
+            can be identified by (“Personal Information”). It does not include data
+            that has been anonymized or pseudonymized.</p>
+
+            <p>We may collect, use, store and
+            transfer different kinds of personal data about you, which we have grouped
+            together as follows:</p>
+
+            <p>Persons who visit the Website without logging in or registering “unregistered users”</p>
+            <ul>
+                <li class="alpha">Technical Data includes internet protocol (IP) address, which we pseudonymize (a technique that replaces or removes information in the dataset that identifies an individual), browser type and version, time zone
+            setting and location, operating system and platform and other technology on the devices you use to access this Website.</li>
+                <li>User Submitted Data includes data collected at your direction for a specific function, for example a contest or survey.</li>
+                <li class="omega">Usage Data includes aggregated information about how you use our Website, products and services.</li>
+            </ul>
+
+            <p>Persons who choose to create an account “registered users”</p>
+            <ul>
+                <li class="alpha">Identity Data includes, username or similar identifier, date of birth and gender.</li>
+                <li>Contact Data includes email address.</li>
+                <li>Financial Data in case of purchases includes payment card details.</li>
+                <li>Transaction Data in case of purchases, it may include details about payments to and from you and other details of products and services you have purchased or received from us.</li>
+                <li>Technical Data includes pseudonymized internet protocol (IP) address, your login data, browser type and version, time zone setting and location, operating system and platform and other technology on the devices you use to access this Website.</li>
+                <li>User Submitted Data includes data collected at your direction for a specific function, for example your username and password, purchases or orders made by you, your interests, preferences, feedback and survey responses.</li>
+                <li>Usage Data includes information about how you use our Website, products and services.</li>
+                <li class="omega">Marketing and Communications Data includes your preferences in receiving marketing from us and our third parties and your communication preferences.</li>
+            </ul>
+
+            <p>We may also collect, use and
+            share your data to produce and share aggregated insights that do not identify
+            you. Aggregated data may be derived from your personal data but is not considered
+            personal data as this data does not directly or indirectly reveal your
+            identity. For example, we may aggregate your usage data to calculate the
+            percentage of users accessing a specific Website feature, to generate
+            statistics about our users, to calculate the percentage of users accessing a
+            specific Website feature, to calculate ad impressions served or clicked on, or
+            to publish visitor demographics.</p>
+
+            <p>We do not collect special
+            categories of Personal Information about you (this includes details about your
+            race or ethnicity, religious or philosophical beliefs, political opinions,
+            trade union membership, information about your health and genetic and biometric
+            data). However, particular preferences and sexual orientation depend on how you
+            use our Website and services. The processing of such Sensitive Personal
+            Information may be necessary to provide some of our service to you.</p>
+
+            <h2 class="privacyTitle">How is Your Personal Information Collected?</h2>
+
+            <p>We use different methods to
+            collect data from and about you including through:</p>
+
+            <ul>
+                <li class="alpha"><i>Direct interactions.&nbsp;</i>Information
+                    that you provide when carrying out search queries on our Website or by
+                    filling in forms on our Website, in particular at the time of registering
+                    to use our Website, subscribing to our service, posting material, taking
+                    part in surveys, entering a contest or promotion sponsored by us, when
+                    reporting a problem with our Website, or requesting further services.</li>
+                <li class="omega"><i>Automated
+                    technologies or interactions</i>. See “<i>Third-party Use of Cookies
+                    and Other Tracking Technologies</i>” for details of how we may
+                    automatically collect your personal data.</li>
+            </ul>
+
+            <h2 class="privacyTitle">User Contributions</h2>
+
+            <p>We may provide areas on our
+            Website where you can post information about yourself and others and
+            communicate with others, upload content (e.g., pictures, videos, audio files,
+            etc.), and post comments or reviews of content found on the Website. Such
+            postings are governed by our terms of use found at <a href="https://heartforhentai.com/imprint.php">https://heartforhentai.com/imprint.php</a>. You
+            should be aware that any Personal Information you submit, display, or publish
+            in public areas of our website is considered publicly available and can be
+            read, collected, used, and disclosed by others. We cannot control who reads
+            your posting or what other users may do with the information you voluntarily
+            post, so we encourage you to exercise discretion and caution with respect to
+            your Personal Information. To request removal of your personal information from
+            our website, please refer to the section “your rights related to your personal
+            information” in this policy. </p>
+
+            <h2 class="privacyTitle">Information Collected Through
+            Automatic Data Collection Technologies</h2>
+
+            <p>As you navigate through and
+            interact with our Website, we use automatic data collection technologies to
+            collect certain information about your equipment, browsing actions and
+            patterns, including information such as your IP address, browser type,
+            operating system, the referring web page, pages visited, location, your mobile
+            carrier, device information, search terms, and cookie information.</p>
+
+            <p>The technologies we use for
+            this automatic data collection may include:</p>
+
+            <ul>
+                <li class="alpha omega">Cookies (or
+                    browser cookies).
+                    Cookies are small text files that are stored in your web browser or
+                    downloaded to your device when you visit a website. Cookies are then sent
+                    back to the originating website on each subsequent visit, or to another
+                    website that recognizes that cookie, and allow a website to recognize a
+                    user’s device.</li>
+            </ul>
+
+            <p>We currently use the following types of cookies:</p>
+
+
+            <ul type="circle">
+                <li class="alpha"><i>Cookies that
+                    are strictly necessary</i>: These are cookies that are
+                    required for the operation of our Website. These include, for example,
+                    cookies that enable a user to log in to our Website and to check if a
+                    user is allowed access to a particular service or content.</li>
+                <li><i>Analytical
+                    cookies</i>:
+                    These cookies allow us to recognize and count the number of users and to
+                    see how users use and explore our Website. These cookies help us to
+                    improve our Website, for example by ensuring that all users are able to
+                    find what they are looking for easily.</li>
+                <li><i>Functionality
+                    cookies</i>:
+                    These cookies are not essential, but help us to personalize and enhance
+                    your online experience on our Website. This type of cookies allows us to
+                    recognize you when you return to our Website and to remember, for
+                    example, your choice of language.</li>
+                <li><i>Targeting
+                    cookies</i>:
+                    These cookies record the visit of a user on our Website, the pages a user
+                    has visited and the links a user has followed in order to enable us to
+                    make our Website more relevant to the users' interests.</li>
+                <li class="omega">We do not
+                    require that you accept cookies and you may withdraw your consent to our
+                    use of cookies at any time by adjusting your browser’s privacy settings.
+                    However, if you decline to accept cookies, some functionality on our
+                    Website may be disabled and you may be unable to access certain parts of
+                    our Website. Unless you have adjusted your browser setting so that it
+                    will refuse cookies, our system will issue cookies when you direct your
+                    browser to our Website. Cookies can be either session cookies or
+                    persistent cookies. A session cookie expires automatically when you close
+                    your browser. A persistent cookie will remain until it expires or you
+                    delete your cookies. Expiration dates are set in the cookies themselves;
+                    some may expire after a few minutes while others may expire after
+                    multiple year</li>
+            </ul>
+
+
+            <ul>
+                <li class="alpha">Web Beacons. Pages of
+                    our Website and our e-mails may contain small electronic files known as
+                    web beacons (also known as clear gifs, pixel tags, single-pixel gifs and
+                    web bugs)&nbsp;that are tiny graphics with a unique identifier, similar in
+                    function to cookies, and are used to track the online movements of web users
+                    or to access cookies.</li>
+                <li class="omega">Analytics. We use
+                    third party analytics and advertising tools and technologies, in
+                    particular Google Analytics and DoubleClick provided by Google, Inc., USA
+                    (“Google”). These tools and technologies collect and analyze certain types
+                    of information, including IP addresses, device and software identifiers,
+                    referring and exit URLs, onsite behavior and usage information, feature
+                    use metrics and statistics, usage and purchase history, media access
+                    control address (MAC Address), mobile unique device identifiers, and other
+                    similar information via the use of cookies. The information generated by
+                    Google Analytics and DoubleClick about your use of the Website (including
+                    your IP address)&nbsp;may be transmitted to and stored by Google on servers
+                    in the United States. Because we activated IP anonymization for Google
+                    Analytics and Double Click, Google will anonymize the last octet of a
+                    particular IP address. Only in exceptional cases, the full IP address is
+                    sent to and shortened by Google servers in the USA. Google will use this
+                    information for the purpose of evaluating your use of the Website,
+                    compiling reports on Website activity and managing advertising content. To
+                    learn how you can opt out from this information collection by Google see “<i>Choices
+                    About How We Collect, Use and Disclose Your Personal Information</i>”
+                    below.</li>
+            </ul>
+
+            <h2 class="privacyTitle">Third-party Use of Cookies and
+            Other Tracking Technologies</h2>
+
+            <p>Some content or applications,
+            including advertisements, on the Website are served by third parties, including
+            advertisers, ad networks and servers, content providers and application
+            providers. These third parties may use cookies alone or in conjunction with web
+            beacons or other tracking technologies to collect information about you when
+            you use our Website. Unless expressly stated otherwise, our website does not
+            provide any Personal Information to these third parties, however they may
+            collect information, including Personal Information, such as internet protocol
+            (IP) address, browser type and version, time zone setting and location,
+            operating system and platform and other technology on the devices you use to
+            access this Website. They may use this information to provide you with
+            interest-based advertising or other targeted content.</p>
+
+            <p>We do not control these third
+            parties’ tracking technologies or how they may be used. If you have any
+            questions about an advertisement or other targeted content, you should contact
+            the responsible provider directly. For information about how you can opt out of
+            receiving targeted advertising from many providers, see “<i>Choices About How
+            We Collect, Use and Disclose Your Personal Information</i>”.</p>
+
+            <h2 class="privacyTitle">How We Use Your Personal Data</h2>
+
+            <p>We will only use your personal
+            data when the applicable local law allows us to. Most commonly, we will use
+            your personal data in the following circumstances:</p>
+
+            <ul>
+                <li class="alpha">For purposes
+                    of providing the services, customer management and functionality and
+                    security as is necessary to perform the services provided to you under our
+                    term and conditions and any other contract that you have with us.</li>
+                <li>Where it is necessary
+                    for our legitimate interests (or those of a third party) and your
+                    interests and fundamental rights do not override those interests.</li>
+                <li>Where we need
+                    to comply with a legal or regulatory obligation.</li>
+                <li class="omega">Where you
+                    declare your valid consent to use it.</li>
+            </ul>
+
+            <p>Note that we may process your
+            personal data for more than one lawful ground depending on the specific purpose
+            for which we are using your data.</p>
+
+            <h2 class="privacyTitle">Purposes for Which We Use Your
+            Personal Information</h2>
+
+            <p>In general, we use information
+            that we collect about you or that you provide to us, including Personal
+            Information and Sensitive Personal Information, for following purposes:</p>
+
+            <ul>
+                <li class="alpha">Provision of
+                    services (Registered Members Only): to present our Website and its
+                    contents to you, including any interactive features on our Website, and to
+                    provide you with information, products or services that you request from
+                    us; we also collect and use Personal Information to verify your
+                    eligibility and deliver prizes in connection with contests and
+                    sweepstakes;</li>
+                <li>Customer
+                    management (Registered Members Only): to manage a registered
+                    users’ account, to provide customer support and notices to the registered
+                    user about his account or subscription, including expiration and renewal
+                    notices, and notices about changes to our Website or any products or
+                    services we offer or provide through it;</li>
+                <li>Customization
+                    of content (Registered Members Only): to perform research and
+                    analysis about your use of, or interest in, our Website content, products,
+                    or services, in order to develop and display content and advertising
+                    tailored to your interests on our Website and other sites;</li>
+                <li>Analytics: to
+                    determine whether users of the Website are unique, or whether the same
+                    user is using the Website on multiple occasions, and to monitor aggregate
+                    metrics such as total number of visitors, pages viewed, demographic
+                    patterns;</li>
+                <li>Functionality
+                    and security:
+                    to diagnose or fix technology problems, and to detect, prevent, and
+                    respond to actual or potential fraud, illegal activities, or intellectual
+                    property infringement;</li>
+                <li>Compliance: to enforce
+                    our terms and conditions and to comply with our legal obligations;</li>
+                <li class="omega">in any other
+                    way we may describe when you provide the information; or for any other
+                    purpose with your consent provided separately from this privacy policy.</li>
+            </ul>
+
+            <h2 class="privacyTitle">Disclosure of Your Personal
+            Information</h2>
+
+            <p>We do not disclose your
+            Personal Information except in the limited circumstances described here.</p>
+
+            <ul>
+                <li class="alpha">We may
+                    disclose your Personal Information to members of our corporate group (that
+                    is, entities that control, are controlled by, or are under common control
+                    with us) to the extent this is necessary for the purposes of provision of
+                    services, customer management, customization of content, advertising,
+                    analytics, verifications, functionality and security, and compliance.</li>
+                <li>Service
+                    providers.&nbsp;To
+                    our authorized service providers that perform certain services on our
+                    behalf. These services may include fulfilling orders, processing credit
+                    card payments, risk and fraud detection and mitigation, providing customer
+                    service, performing business and sales analysis, customization of content,
+                    analytics, security, supporting our Website functionality, surveys and
+                    other features offered through our Website. These service providers may
+                    have access to Personal Information needed to perform their functions but
+                    are not permitted to share or use such information for any other purposes.</li>
+                <li class="omega">Legal
+                    successors.
+                    To a buyer or other successor in the event of a merger, divestiture,
+                    restructuring, reorganization, dissolution or other sale or transfer of
+                    some or all of our assets, whether as a going concern or as part of
+                    bankruptcy, liquidation or similar proceeding, in which personal
+                    information held by us about our Website users is among the assets
+                    transferred. Should such a sale or transfer occur, we will use reasonable
+                    efforts to try to ensure that the entity to which we transfer your
+                    personal information uses it in a manner that is consistent with this
+                    privacy policy.</li>
+            </ul>
+
+            <p>We access, preserve and share
+            your Personal Information with regulators, law enforcement or others where we
+            reasonably believe such disclosure is needed to (a)&nbsp;satisfy any applicable
+            law, regulation, legal process, or governmental request, (b)&nbsp;enforce
+            applicable terms of use, including investigation of potential violations
+            thereof, (c)&nbsp;detect, prevent, or otherwise address illegal or suspected
+            illegal activities, security or technical issues, (d)&nbsp;protect against harm
+            to the rights, property or safety of our company, our users, our employees, or
+            others; or (e)&nbsp;to maintain and protect the security and integrity of our Website
+            or infrastructure. In such cases, we may raise or waive any legal objection or
+            right available to us, in our sole discretion.</p>
+
+            <p>We may disclose aggregated
+            information about our users, and information that does not identify any
+            individual, without restriction. We also may share aggregated information with
+            third parties for conducting general business analysis. This information does
+            not contain any Personal Information and may be used to develop content and
+            services that we hope you and other users will find of interest.</p>
+
+            <h2 class="privacyTitle">Financial Information</h2>
+
+            <p>Financial information
+            (including Personal Information) that you have provided to us will only be
+            shared with our third party processors in order to initiate and complete any
+            orders placed on your account. All credit card transactions and such are
+            processed with industry standard encryption through third party processors who
+            only use your financial information and Personal Information for that purpose.
+            All financial data and related Personal Information will not be shared by us
+            with third parties except with your authorization or when necessary to carry
+            out all and any transactions requested by you with the understanding that such
+            transactions may be subject to rules, terms, conditions and policies of a third
+            party. All such information provided to a third party is subject to their terms
+            and conditions.</p>
+
+            <h2 class="privacyTitle">Transfers of Your Personal
+            Information to Other Countries</h2>
+
+            <p>Whenever in the course of
+            sharing information we transfer Personal Information to countries outside of
+            the European Economic Area and other regions with comprehensive data protection
+            laws, we will ensure that the information is transferred in accordance with
+            this privacy policy and as permitted by the applicable laws on data protection.</p>
+
+            <p>By using the Website you consent
+            to the transfer of information that we collect about you, including personal
+            information, to any country in which we, members of our corporate group (that
+            is, entities that control, are controlled by, or are under common control with
+            us) or our service providers are located.</p>
+
+            <h2 class="privacyTitle">Retention of Personal
+            Information</h2>
+
+            <p>We will only retain your
+            Personal Data for as long as necessary to fulfil the purposes we collected it
+            for, including for the purposes of satisfying any legal, accounting, or
+            reporting requirements.</p>
+
+            <p>To determine the appropriate
+            retention period for personal data, we consider the amount, nature, and
+            sensitivity of the personal data, the potential risk of harm from unauthorized
+            use or disclosure of your personal data, the purposes for which we process your
+            personal data and whether we can achieve those purposes through other means,
+            and the applicable legal requirements.</p>
+
+            <p>Where we no longer need to
+            process your Personal Data for the purposes set out in this Privacy Policy, we
+            will delete your Personal Data from our systems.</p>
+
+            <p>Where permissible, we will
+            also delete your Personal Data upon your request. Information on how to make a
+            deletion request can be found under “<i>Your Rights Related to Your Personal
+            Information</i>”.</p>
+
+            <p>If you have questions about
+            our data retention practices, please send us an e-mail at&nbsp;<a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a>.</p>
+
+            <p>The period for which we keep
+            your Personal Information that is necessary for compliance and legal
+            enforcement purposes varies and depend on the nature of our legal obligations
+            and claims in the individual case.</p>
+
+            <h2 class="privacyTitle">How We Protect the Security of
+            Your Personal Information</h2>
+
+            <p>We take appropriate security
+            measures (including physical, electronic and procedural measures)&nbsp;to
+            safeguard your Personal Information from unauthorized access and disclosure.
+            For example, only authorized employees are permitted to access Personal
+            Information, and they may do so only for permitted business functions. In
+            addition, we use encryption in the transmission of your Personal Information
+            between your system and ours, and we use firewalls to help prevent unauthorized
+            persons from gaining access to your Personal Information. Please be advised,
+            however, that we cannot fully eliminate security risks associated with the storage
+            and transmission of Personal Data.</p>
+
+            <p>You are responsible for
+            maintaining the secrecy of your unique password and account information at all
+            times. We are not responsible for circumventions of any privacy settings or
+            security measures contained on the Website..</p>
+
+            <h2 class="privacyTitle">Choices About How We Collect,
+            Use and Disclose Your Personal Information</h2>
+
+            <p>We strive to provide you with
+            choices regarding the Personal Information you provide to us.</p>
+
+            <ul>
+                <li class="alpha">You can
+                    choose not to provide us with certain Personal Information, but that may
+                    result in you being unable to use certain features of our Website because
+                    such information may be required in order for you to register as a member;
+                    purchase products or services; participate in a contest, promotion,
+                    survey, or sweepstakes; ask a question; or initiate other transactions on
+                    our Website.</li>
+                <li>You can set
+                    your browser to refuse all or some browser cookies, or to alert you when
+                    cookies are being sent. If you disable or refuse cookies, please note that
+                    some parts of the Website may then be inaccessible or not function
+                    properly.</li>
+                <li>You may opt
+                    out of the DoubleClick cookie or of Google Analytics by visiting the&nbsp;<a href="https://adssettings.google.com/">Google
+                    advertising opt-out page</a>&nbsp;or by downloading and
+                    installing the browser plug-in available at&nbsp;<a href="https://tools.google.com/dlpage/gaoptout">Google
+                    Analytics opt-out page</a>.</li>
+                <li>When you
+                    register on our Website. If you no longer want to receive commercial or
+                    promotional emails or newsletters from us, you will need to avail yourself
+                    of the unsubscribe mechanism set out in the applicable communication. It
+                    may take up to seven days for us to process an opt-out request. We may
+                    send you other types of transactional and relationship e-mail
+                    communications, such as service announcements, administrative notices, and
+                    surveys, without offering you the opportunity to opt out of receiving
+                    them. Please note that opting out of receipt of promotional email
+                    communications will only affect future activities or communications from
+                    us. If we have already provided your information to a third party before
+                    you have changed your preferences or updated your information, you may
+                    have to change you preferences directly with that third party.</li>
+                <li class="omega">If you submit
+                    Personal Information, you may delete and deactivate your account with us
+                    at any time. If you deactivate and delete the information of your account,
+                    your Personal Information and any and all other account related
+                    information including, but not limited to, user profile data, sharing data
+                    and any other data, or content specifically associated with your account
+                    will no longer be accessible by you. After deleting and deactivating your
+                    account, if you choose to have an account with us in the future, you will
+                    have to sign up for a new account as none of the information you previously
+                    provided or saved within your account will have been saved.</li>
+            </ul>
+
+            <h2 class="privacyTitle">Your Rights Related to Your
+            Personal Information</h2>
+
+            <p>Subject to local law, you have
+            certain rights regarding the Personal Information we collect, use or disclose
+            and that is related to you, including the right</p>
+
+            <ul>
+                <li class="alpha">to receive
+                    information on the Personal Information concerning we hold about you and
+                    how such Personal Information is used (right to access);</li>
+                <li>to rectify
+                    inaccurate Personal Information concerning you (right to data
+                    rectification);</li>
+                <li>to
+                    delete/erase your Personal Information (right to erasure/deletion, “right
+                    to be forgotten”);</li>
+                <li>to receive
+                    the Personal Information provided by you in a structured, commonly used
+                    and machine-readable format and to transmit those Personal Information to
+                    another data controller (right to data portability)</li>
+                <li>to object to
+                    the use of your Personal Information where such use is based on our
+                    legitimate interests or on public interests (right to object); and</li>
+                <li class="omega">in some
+                    cases, to restrict our use of your Personal Information (right to restriction
+                    of processing).</li>
+            </ul>
+
+            <p>If we ask for your consent to
+            use your Personal Information, you can withdraw your consent at any time. Note
+            that in case of a withdrawal of your consent you may no longer able to use
+            several functionalities of our Website and our services.</p>
+
+            <p>You may, at any time, send us
+            an e-mail at&nbsp;<a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a>&nbsp;to
+            exercise your above rights in accordance with the applicable legal requirements
+            and limitations. If you are located in the European Economic Area, you have a
+            right to lodge a complaint with your local data protection authority.</p>
+
+            <p>Note that some requests to
+            delete certain Personal Information will require the deletion of your user
+            account as the provision of user accounts are inextricable linked to the use of
+            certain Personal Information (<i>e.g.</i>, your e-mail address). Also note that
+            it is possible that we require additional information from you in order to
+            verify your authorization to make the request and to honor your request.</p>
+
+            <h2 class="privacyTitle">California Consumer Privacy Act Notice</h2>
+
+            <p>As of January 1, 2020, the California Consumer Privacy Act of 2018 ("<strong>CCPA</strong>") provides California residents ("<strong>Consumer(s)</strong>") certain rights with respect to their personal information, as this term is defined under the CCPA. In addition to the rights we state under this policy and subject to the exceptions found under the CCPA, Consumers have the right to:
+            </p>
+            <ul>
+                <li class="alpha">Opt-out of the sale of their personal information, should we sell their personal information;</li>
+                <li>Be informed of certain information concerning our collection and use of their personal information;</li>
+                <li>Request that we delete certain personal information we collected from them;</li>
+                <li>Appoint an agent to exercise their rights provided for by the CCPA, provided that a duly executed notarized power of attorney is presented and provided that the agent has information deemed sufficient to allow us to verify the identity of the Consumer in question and to locate his/her information in our systems;</li>
+                <li class="omega">Not be subjected to discrimination for the exercise of these rights. We will not deny California residents the use of our service, neither will we provide a different level or quality or services for exercising any of their CCPA rights, unless as permitted under the CCPA.</li>
+            </ul>
+            <p>This Website does not sell nor has it sold in the past 12 months personal information to third parties for monetary or other valuable considerations. We may however disclose certain personal information with third parties, service providers and entities within our corporate group in order to enable them to perform certain services on our behalf and namely to make the Website work properly. Regardless, we respect the California residents’ right to exclude personal information from such sharing arrangements and to thereby opt-out of any future sale of their personal information.
+            </p>
+            <p>If the CCPA is applicable to you and you would like to exercise your rights, please contact <a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a></p>
+
+            <h2 class="privacyTitle">Changes to Our Privacy Policy</h2>
+
+    
+
+            <p>If we change anything in our
+            privacy policy, the date of change will be reflected in the “last modified
+            date”. You agree that you will periodically review this privacy policy and
+            refresh the page when doing so. You agree to note the date of the last revision
+            to our privacy policy. If the “last modified” date is unchanged from the last
+            time you reviewed our privacy policy, then it is unchanged. On the other hand,
+            if the date has changed, then there have been changes, and you agree to
+            re-review our privacy policy, and you agree to the new ones. By continuing to
+            use the Website subsequent to us making available an amended version of our
+            privacy policy in a way that you can easily take notice of it, you thereby consent
+            to such amendment.</p>
+
+            <h2 class="privacyTitle">Enforcement; Cooperation</h2>
+
+            <p>We regularly review our
+            compliance with this privacy policy. Please feel free to direct any questions
+            or concerns regarding this privacy policy or our treatment of Personal
+            Information by contacting us through this Website at <a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a>. When we receive a
+            formal written complaint, it is our policy to contact the complaining party
+            regarding his or her concerns. We will cooperate with the appropriate
+            regulatory authorities, including local data protection authorities, to resolve
+            any complaints regarding the collection, use and disclosure of Personal
+            Information that cannot be resolved by an individual and us.</p>
+
+            <h2 class="privacyTitle">No Rights of Third Parties</h2>
+
+            <p>This privacy policy does not
+            create rights enforceable by third parties or require disclosure of any
+            Personal Information relating to users of the Website.</p>
+
+            <h2 class="privacyTitle">Our Policy Towards Minors</h2>
+
+            <p>Our Website is not directed to
+            persons under the age of 18 or the applicable age of majority in the
+            jurisdiction from which the Website is accessed and we do not knowingly collect
+            Personal Information from minors. If you become aware that your child has
+            provided us with Personal Information, please contact us at&nbsp;<a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a>. If
+            we become aware that a minor has provided us with Personal Information, we take
+            steps to remove such information and terminate that person’s account.</p>
+
+            <h2 class="privacyTitle">No Error Free Performance</h2>
+
+            <p>We do not guarantee error-free
+            performance under this privacy policy. We will use reasonable efforts to comply
+            with this privacy policy and will take prompt corrective action when we learn
+            of any failure to comply with our privacy policy. We shall not be liable for
+            any incidental, consequential or punitive damages relating to this privacy
+            policy.</p>
+
+            <h2 class="privacyTitle">Contact Information</h2>
+
+            <p>If you have any questions
+            about this privacy policy or our information-handling practices, please contact
+            us at&nbsp;<a href="mailto:support@heartforhentai.com">support@heartforhentai.com</a>.</p>
+
+            <p>You may also contact us at
+            195-197 Old Nicosia-Limassol Road, Block 1 Dali Industrial Zone, Cyprus 2540,
+            Phone: +357&nbsp;22662&nbsp;320, Fax: +357&nbsp;22343&nbsp;282.</p>
+        </div>
+    </div>
 </div>
+    
 </body>
 </html>

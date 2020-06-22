@@ -7,7 +7,7 @@
         <script rel="https://cdnjs.cloudflare.com/ajax/libs/3.4.1/Jquery.min.js" charset="UTF-8"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     </head>
-    <body>
+    <body class="katja">
         <header>
             <div class="inner-width">
                 <a href="/" class="logo" alt=""><img src="images/logo.png"></img></a>
@@ -22,25 +22,8 @@
             </div>
         </header>
 
-    <script type="text/javascript">
-        $(".menu-toggle-btn".click(function(){
-            $(this).toggleClass("fa-times");
-            $(",navigation-menu").toggleClass("active")
-        });
-    </script>
-    </body>
-</html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Text Typing Effect</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<div id="text">
-
-</div>
+    <div id="text"></div>
 
 <script type="text/javascript">
     var i = 0,text;
@@ -56,6 +39,13 @@
     typing();
 </script>
 
+
+    <script type="text/javascript">
+        $(".menu-toggle-btn".click(function(){
+            $(this).toggleClass("fa-times");
+            $(",navigation-menu").toggleClass("active")
+        });
+        </script>
 
 </body>
 </html>
