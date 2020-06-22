@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=DB_HEARTFORHENTAI', 'DB_HEARTFORHENTAI', '84{R7Z(g+NDz');
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
