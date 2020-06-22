@@ -13,8 +13,8 @@
         <i class="menu-toggle-btn fas fa-bars"></i>
         <nav class="navigation-menu">
             <a href="index.php"><i class="fas fa-home home"></i> Home</a>
-            <a href="Impresum.php"><i class="fas fa-align-left Impresum"></i> Impresum</a>
-            <a href="Datenschutzerklärung.php"><i class="fas fa-align-left Datenschutz"></i> Datenschuz</a>
+            <a href="imprint.php"><i class="fas fa-align-left Impresum"></i> Impresum</a>
+            <a href="privancypolicy.php"><i class="fas fa-align-left Datenschutz"></i> Datenschuz</a>
         </nav>
     </div>
 </header>
