@@ -23,6 +23,7 @@ if(isset($_GET['login'])) {
   <head>
       <?php include("inc/header.inc.php") ?>
       <meta charset="UTF-8">
+      <link rel="shortcut icon" href="images/icon.png">
       <link rel="stylesheet" href="style.css">
   </head>
   <body>

@@ -7,6 +7,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=DB_HEARTFORHENTAI', 'DB_HEARTFORHENT
 <head>
     <meta charset="utf-8">
     <?php include("inc/header.inc.php") ?>
+    <link rel="shortcut icon" href="images/icon.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
