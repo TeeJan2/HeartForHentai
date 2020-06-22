@@ -13,6 +13,18 @@ $pdo = new PDO('mysql:host=localhost;dbname=DB_HEARTFORHENTAI', 'DB_HEARTFORHENT
 </head>
 <body>
 
+<header>
+            <div class="inner-width">
+                <a href="/" class="logo" alt=""><img src="images/logo.png"></img></a>
+                <i class="menu-toggle-btn fas fa-bars"></i>
+                <nav class="navigation-menu">
+                    <a href="index.php"><i class="fas fa-home home"></i> Home</a>
+                    <a href="team.php"><i class="fas fa-users team"></i> Team</a>
+                    <a href="contact.php"><i class="fas fa-headset contact"></i> Contact</a>
+                </nav>
+            </div>
+        </header>
+
 <?php
  $showFormular = true;
 
