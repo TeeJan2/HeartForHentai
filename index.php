@@ -51,7 +51,7 @@ $userid = $_SESSION['userid'];
 
 <script type="text/javascript">
     var i = 0,text;
-    text = "Welcome To HentaiForLife.com"
+    text = "Welcome To HeartForHentai.com"
 
     function typing() {
         if(i<text.length){

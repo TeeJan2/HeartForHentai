@@ -7,25 +7,25 @@
         $request_file = end($request);
         switch($request_file){
             case 'index.php':
-                echo "Start - HentaiForLife.com";
+                echo "Start - HeartForHentai";
                 break;
             case 'contanct.php':
-                echo "Kontakt - HentaiForLife.com";
+                echo "Kontakt - HeartForHentai";
                 break;
             case 'login.php':
-                echo "Anmelden - HentaiForLife.com";
+                echo "Anmelden - HeartForHentai";
                 break;
             case 'logout.php':
-                echo "Abmelden - HentaiForLife.com";
+                echo "Abmelden - HeartForHentai";
                 break;
             case 'register.php':
-                echo "Registrieren - HentaiForLife.com";
+                echo "Registrieren - HeartForHentai";
                 break;
             case 'team.php':
-                echo "Team - HentaiForLife.com";
+                echo "Team - HeartForHentai";
                 break;
             default:
-                echo "HentaiForLife.com";
+                echo "HeartForHentai";
                 break;
         }
         ?></title>
